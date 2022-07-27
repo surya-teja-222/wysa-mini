@@ -54,7 +54,7 @@ const Start: NextPage = () => {
     }
 
     let temp = count;
-    for (let index: number = temp - 1; index < msg.length; index++) {
+    for (let index: number = 0; index < msg.length; index++) {
       const msg_holder = document.getElementById("msg_holder") as HTMLElement;
       const msg_div = document.createElement("div");
       msg_div.className = styles.msg;
