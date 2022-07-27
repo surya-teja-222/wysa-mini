@@ -1,0 +1,16 @@
+.gradientt {
+  background-color: rgb(255, 163, 113);
+  background: linear-gradient(
+    260deg,
+    #3469a2ac 50.17%rgba (201, 150, 192, 0.782) 96 10.92%
+  );
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

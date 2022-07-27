@@ -4,6 +4,7 @@ import login from "./../styles/login.module.css";
 import { useState, useEffect } from "react";
 
 const Home: NextPage = () => {
+  // UseEffect to check if a user is logged in.
   useEffect(() => {
     const email = localStorage.getItem("email");
     if (email) {
@@ -11,9 +12,12 @@ const Home: NextPage = () => {
     }
   }, []);
 
+  // useeffect to maintain email , and password in localstorage
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  // on form submit, store email in localstorage and redirect to get-started page
+  // Since, this is a starter application, no server side validation is done.
   const handleSubmit = () => {
     const emailElem = (document.getElementById("email") as HTMLInputElement)
       .value;
