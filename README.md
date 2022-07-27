@@ -23,7 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 6. A input box, send button to send a message to the server.
 ```
 
-Live Implimentation available at [localhost:3000](`localhost:3000`)
+Live Implimentation available at [https://wysa-mini.vercel.app/](https://wysa-mini.vercel.app/)
 
 
 
